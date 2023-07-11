@@ -1,0 +1,93 @@
+.footer {
+    background-color: #373737;
+    padding: 20px;
+    /* text-align: center; */
+    color: #fff;
+  }
+  
+  .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-column {
+    width: 200px;
+    margin: 10px;
+    text-align: left;
+  }
+  
+  .footer h4 {
+    font-size: small;
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: smaller;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  .contact-info {
+    margin-top: 10px;
+  }
+  
+  .contact-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .contact-row span {
+    margin-left: 10px;
+  }
+  .follow-us {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .follow-us a {
+    display: inline-block;
+    margin-right: 1rem;
+    color: inherit;
+  }
+  
+  .download-app {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .download-app a img {
+    height: 2rem;
+    margin-right: 10px;
+    font-size: larger;
+    margin-top: 10px;
+  }
+  .footer-links{
+    padding: 0 4rem;
+    display: flex;
+    gap: 5rem;
+  }
+  .follow-us a svg{
+    font-size: 28px;
+  }
+  
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 600px) {
+    .footer-column {
+      width: 100%;
+    }
+    .footer-links{
+        padding: 0 5rem;
+        padding: 1rem;
+        flex-direction: column;
+    }
+  }
+  

@@ -1,0 +1,7 @@
+body{
+    background-color: #f9f8f8;
+    max-width: 100vw;
+}
+section{
+    box-sizing: border-box;
+}
