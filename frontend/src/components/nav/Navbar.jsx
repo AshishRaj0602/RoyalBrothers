@@ -137,8 +137,8 @@ const handleSignin=()=>{
           </div>
           <ul className="navbar__sidebarMenu">
             <li className='navbar__sidebarMenu_sign'>
-              <div className="sidebar_login">LOG IN</div>
-              <div className="sidebar_signup">SIGN UP</div>
+              <div className="sidebar_login" onClick={()=>navigate('/login')}>LOG IN</div>
+              <div className="sidebar_signup" onClick={()=>navigate('/signup')}>SIGN UP</div>
             </li>
             <li className="navbar__sidebarMenuItem">Tariff</li>
             <hr />
