@@ -1,0 +1,32 @@
+.time-picker {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .time-picker-button {
+    padding: 8px 16px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .time-picker-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 4px 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+  }
+  
+  .time-picker-dropdown li {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .time-picker-dropdown li:hover {
+    background-color: #f2f2f2;
+  }
+  
